@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  height: 100wh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+h1{
+  margin: 100px auto ;
+  font-size: 3rem;
+  font-family: Georgia;
+  color: #2c2c2c;
+}
+#form{
+  margin: 10px 50px;
+  display: flex;
+  justify-content: center;
+  gap :10px;
+}
+#name{
+  padding: 10px;
+  width: 30vw;
+  border-radius: 10px;
+  border: solid 2px #2c2c2c;
+    font-size:medium;
+
+}
+#submit{
+  border-radius: 10px;
+  background-color: brown;
+  color: #f3f3f3;
+  border: none;
+  font-size:medium;
+  padding: 4px 10px;
+}
